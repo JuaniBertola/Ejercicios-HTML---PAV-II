@@ -22,59 +22,71 @@
     <main>
       <h1>PERSONA</h1>
       <form action="persona.html" method="post">
-        <fieldset> 
+        <fieldset>
           <legend>Datos de Persona</legend>
           <label for="apellido">Apellido</label>
-          <input id="apellido" type="Text"> <br>
+          <input id="apellido" type="Text" /> <br />
           <label for="nombre">Nombre</label>
-          <input id="nombre" type="Text"> <br>
+          <input id="nombre" type="Text" /> <br />
           <label for="sexo">Sexo</label>
-          <input id="masculino" type="radio" name="sexo">
+          <input id="masculino" type="radio" name="sexo" />
           <label for="msculino">Masculino</label>
-          <input id="femenino" type="radio" name="sexo">
-          <label for="femenino">Femenino</label> <br>
+          <input id="femenino" type="radio" name="sexo" />
+          <label for="femenino">Femenino</label> <br />
           <label for="tipoDoc">Tipo Documento</label>
           <select name="tipoDoc" id="tipoDoc" required>
             <option value="doc">Documento de Identidad</option>
             <option value="lib">Libreta Civica</option>
-          </select> <br>
+          </select>
+          <br />
           <label for="doc"> Numero de Documento</label>
-          <input type="text" id="doc"> <br>
+          <input type="text" id="doc" /> <br />
           <label for="fechaNac">Fecha Nacimiento</label>
-          <input type="date" id="fechaNac"> <br>
+          <input type="date" id="fechaNac" /> <br />
           <label for="cel">Telefono</label>
-          <input type="text" id="cel" value="351" style="width:50px" disabled> - 
-          <input type="text" id="cel2"> <br>
+          <input
+            type="text"
+            id="cel"
+            value="351"
+            style="width: 50px"
+            disabled
+          />
+          - <input type="text" id="cel2" /> <br />
           <label for="ingresos"> Ingresos Mensuales</label>
-          <input type="number" id="ingresos"> <br>
-          <label for="comida">Comida Preferida</label> 
+          <input type="number" id="ingresos" /> <br />
+          <label for="comida">Comida Preferida</label>
           <select name="comida" id="comida" size="4" required>
             <option value="lomito">Lomito Completo</option>
             <option value="pizza">Pizza Muzzarela</option>
             <option value="tarta">Tarta de Jamon y Queso</option>
             <option value="pasta">Pastas</option>
-          </select> <br>
+          </select>
+          <br />
           <label for="obs">Observaciones</label>
-          <textarea name="obs" id="obs" cols="30" rows="10" col></textarea> <br>
-          <input type="checkbox" name="auto" value="auto" checked> Tiene Auto Propio <br>
-          <input type="checkbox" name="casa" value="casa" checked> Tiene Casa Propia <br>          
+          <textarea name="obs" id="obs" cols="30" rows="10" col></textarea>
+          <br />
+          <input type="checkbox" name="auto" value="auto" checked /> Tiene Auto
+          Propio <br />
+          <input type="checkbox" name="casa" value="casa" checked /> Tiene Casa
+          Propia <br />
         </fieldset>
         <fieldset>
           <legend>Casa Propia - Domicilio</legend>
           <label for="calle">Calle</label>
-          <input type="text" id="calle"> <br>
+          <input type="text" id="calle" /> <br />
           <label for="altura">Altura</label>
-          <input type="text" id="altura"> <br>
+          <input type="text" id="altura" /> <br />
           <label for="localidad">Localidad</label>
-          <input type="text" id="localidad"> <br>
+          <input type="text" id="localidad" /> <br />
           <label for="provincia">Provincia</label>
           <select name="provincia" id="provincia">
             <option value="cba">Cordoba</option>
             <option value="bsas">Buenos Aires</option>
             <option value="stf">Santa Fe</option>
-          </select> <br>
+          </select>
+          <br />
           <label for="codigo">Codigo Postal</label>
-          <input type="text" id="codigo">
+          <input type="text" id="codigo" />
         </fieldset>
       </form>
     </main>
