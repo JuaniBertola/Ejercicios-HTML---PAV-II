@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ejercicios HTML - 88850</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/page">Ejercicio 1</a>
+      <a href="/ejercicio2.html">Ejercicio 2</a>
+      <a href="/ejercicio3.html">Ejercicio 3</a>
+      <a href="/ejercicio4.html" aria-current="page">Ejercicio 4</a>
+      <a href="/page2.html">Ejemplo clase</a>
+    </nav>
+    <main>
+      <h1>PERSONA</h1>
+      <form action="persona.html" method="post">
+        <fieldset> 
+          <legend>Datos de Persona</legend>
+          <label for="apellido">Apellido</label>
+          <input id="apellido" type="Text"> <br>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" type="Text"> <br>
+          <label for="sexo">Sexo</label>
+          <input id="masculino" type="radio" name="sexo">
+          <label for="msculino">Masculino</label>
+          <input id="femenino" type="radio" name="sexo">
+          <label for="femenino">Femenino</label> <br>
+          <label for="tipoDoc">Tipo Documento</label>
+          <select name="tipoDoc" id="tipoDoc" required>
+            <option value="doc">Documento de Identidad</option>
+            <option value="lib">Libreta Civica</option>
+          </select> <br>
+          <label for="doc"> Numero de Documento</label>
+          <input type="text" id="doc"> <br>
+          <label for="fechaNac">Fecha Nacimiento</label>
+          <input type="date" id="fechaNac"> <br>
+          <label for="cel">Telefono</label>
+          <input type="text" id="cel" value="351" style="width:50px" disabled> - 
+          <input type="text" id="cel2"> <br>
+          <label for="ingresos"> Ingresos Mensuales</label>
+          <input type="number" id="ingresos"> <br>
+          <label for="comida">Comida Preferida</label> 
+          <select name="comida" id="comida" size="4" required>
+            <option value="lomito">Lomito Completo</option>
+            <option value="pizza">Pizza Muzzarela</option>
+            <option value="tarta">Tarta de Jamon y Queso</option>
+            <option value="pasta">Pastas</option>
+          </select> <br>
+          <label for="obs">Observaciones</label>
+          <textarea name="obs" id="obs" cols="30" rows="10" col></textarea> <br>
+          <input type="checkbox" name="auto" value="auto" checked> Tiene Auto Propio <br>
+          <input type="checkbox" name="casa" value="casa" checked> Tiene Casa Propia <br>          
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
